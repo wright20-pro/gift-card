@@ -1,0 +1,129 @@
+#ptx{
+    width:150px;
+    border-radius: 50%;
+    border:6px solid #4E0616;
+    margin-bottom:10px;
+}
+body{
+    text-align: center;
+    font-family:'Happy monkey', cursive;
+    color:#b49101;
+    background:linear-gradient(#062110,#4a3b42,#3c1601);
+}
+h1,h2,h4{
+    text-shadow: 0px 1px 1px black;
+}
+#bday-age{
+ background:#4E0616;
+ border-radius: 5px;
+ padding:5px 10px;
+ margin: 5px 0 10px 0;
+}
+#bday-date{
+    margin:0;
+    background:#4E0616;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+#header{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#pic{
+    width: 400px;
+    border: 6px soild #4E0616;
+    border-radius: 30px;
+}
+#gift{
+    margin-top: 50px;
+}
+.day{
+    margin-top: 0;
+}
+.grt{
+    margin-bottom: 0;
+}
+.gift-img{
+    width: 400px;
+    border: 6px solid #4E0616;
+    border-radius: 20px;
+    height: 400px;
+    background-image: url(image/photto.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+.gift-img:hover{
+  background-image:url(image/giphy4.webp);
+  background-size: cover;
+}
+.hot-gif{
+    width: 400px;
+    border: 4px solid #901530;
+    border-radius: 10px;
+    height: 400px;
+    background-image:url(image/istockphoto2.jpg) ;
+    background-size: cover;
+    margin: 0 auto;
+}
+.hot-gif:hover{
+ background-image: url(image/appy.webp);
+ background-size: cover;
+ background-position: center;
+ width: 600px;
+}
+.word{
+    width:400px;
+    border: 4px solid #901530;
+    border-radius: 10px;
+    height: 400px;
+    background-image:url(image/gifts.jpg) ;
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+.word:hover{
+  background-image: url(image/wonderful.webp); 
+  background-size: cover; 
+  background-position: center;
+  width:400px;
+}
+.badass{
+    width: 400px;
+    border: 4px solid #4E0616;
+    border-radius: 10px;
+    height: 400px;
+    background-image: url(image/gifffft.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+.badass:hover{
+    background-image:url(image/wolf.webp) ;
+    background-size: cover;
+    background-position: center;
+    width:400px;
+}
+.last{
+    width: 400px;
+    border: 4px solid #0b1c1c;
+    border-radius: 10px;
+    height:200px;
+    background-image: url(image/premium.avif);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.last:hover{
+    background-image: url(1720005974734.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+}
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
